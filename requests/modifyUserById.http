@@ -1,0 +1,10 @@
+PUT http://localhost:3000/users/saaXPeQPW
+Content-Type: application/json
+
+{
+    "email": "marcos.henrique@toptal.com",
+    "password": "sup3rS3cr3tPassw0rd!23",
+    "firstName": "Marcos",
+    "lastName": "Silva",
+    "permissionLevel": 8
+}

@@ -1,6 +1,5 @@
 import express from "express";
 import * as http from "http";
-
 import * as winston from "winston";
 import * as expressWinston from "express-winston";
 import cors from "cors";
@@ -53,4 +52,5 @@ server.listen(port, () => {
   });
   // our only exception to avoiding console.log(), because we
   // always want to know when the server is done starting up
+  console.log(runningMessage);
 });
