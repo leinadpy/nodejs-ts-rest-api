@@ -1,6 +1,7 @@
-PATCH http://localhost:3000/users/saaXPeQPW
+PATCH http://localhost:3000/users/--DnmlOz0
 Content-Type: application/json
 
 {
-    "lastName": "Faraco"
+    "firstName": "Marcos",
+    "lastName": "Silva"
 }
