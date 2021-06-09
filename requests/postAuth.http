@@ -1,0 +1,7 @@
+POST http://localhost:3000/auth
+Content-Type: application/json
+
+{
+    "password":"sup3S3cr3tPassw0rd!23",
+    "email":"marcos.henrique@toptal.com"
+}
